@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     // display button
-    var displayButton =["cat","dog","fish","sky"];
+    var displayButton =["Cat","Dog","Fish","Sky","Flower","Rain","Sunset","Sunrise","Ocean","Forest","Waterfall","Snow","Stars"];
 
     // display image
     function dispalyimage (){
@@ -23,19 +23,34 @@ $(document).ready(function(){
 
             var displayDiv = $("<div>");
             displayDiv.addClass("holder");
+            // 88888888888888888888888888888888888888888
+                 var rating = response.data[i].rating;
+            console.log(response);
+            var pRating = $("<p>").text("Rating: "+ rating);
+            displayDiv.append(pRating);
+            //888888888888888888888888888888888888      
+            // var image = $("<img>");
+            // image.attr("src", response.data[i].images.original_still.url);
+            // image.attr("image-still",response.data[i].images.original_still.url);
+            // image.attr("image-animated",response.data[i].images.original.url);
+            // image.attr("data-state", "still");
+            // image.attr("class", "gif");
+            // displayDiv.append(image);
 
+            // 888888888888888888888888888888888888888888
             var image = $("<img>");
-            image.attr("src", response.data[i].images.original_still.url);
-            image.attr("image-still",response.data[i].images.original_still.url);
+            image.attr("src", response.data[i].images.fixed_height_still.url);
+            image.attr("image-still",response.data[i].images.fixed_height_still.url);
             image.attr("image-animated",response.data[i].images.original.url);
             image.attr("data-state", "still");
             image.attr("class", "gif");
             displayDiv.append(image);
+            // 88888888888888888888888888888888888888888888888
             
-            var rating = response.data[i].rating;
-            console.log(response);
-            var pRating = $("<p>").text("Rating: "+ rating);
-            displayDiv.append(pRating)
+            // var rating = response.data[i].rating;
+            // console.log(response);
+            // var pRating = $("<p>").text("Rating: "+ rating);
+            // displayDiv.append(pRating);
 
             $("#display-Image").append(displayDiv);
 

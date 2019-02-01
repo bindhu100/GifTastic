@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <!-- link style sheet -->
         <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- link favicon -->
+        <!-- <link rel="icon" href="./assets/images/favicon.ico"> -->
+        <link rel="icon" href="./assets/images/favicon (20).ico">
     </head>
     <body>
             <div class="jumbotron jumbotron-fluid text-center">
@@ -29,13 +32,16 @@
                 <!-- to display form -->
                     <div class="row">
                         <div class="col-md-12">
-                            <form>
-                                <input id="user-Input" type="text">
+                            <form autocomplete="off"> <!-- autocomplete="off" - To remove previously entered values from the text box-->>
+                                <!-- <input id="user-Input" type="text"> -->
+                                <!-- <input id="submitButton" type="submit" value="Submit" class="btn btn-secondary"> -->
                                 <input id="submitButton" type="submit" value="Submit" class="btn btn-secondary">
+                                <input id="user-Input" type="text">
                                 <!-- <button type="button" class="btn btn-secondary">Secondary</button> -->
                                 <!-- <input id="submitButton" type="submit" value="Submit" class="btn btn-default"> -->
                             </form>
                         </div>
+                        <h2> <span class="popmessage"></span>
                     </div>
 
                     <!-- to display images-->
