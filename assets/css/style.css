@@ -8,21 +8,42 @@
 /* buttons and input area */
 button, input, optgroup, select, textarea {
     margin: 5px;
-    /* background-color: blue; */
+
+}
+
+    /* btton background $ add button background */
+    button {
+    /* margin: 5px; */
+    /* background-image: url(../images/orenge.jpg); */
+    background-color: orangered;
+
+    }
+
+    
+    
+/* submit button */
+    .btn-secondary{
+        /* background-image: url(../images/orenge.jpg); */
+        /* background-color: #202333; */
+        background-color: #202333b9
+    }
+
+/* text area */
+#user-Input{
+    background-color: whitesmoke;
+    color: black;
+    border: 3px solid #202333;
 }
 
 /* display image */
 img{
     width: 300px;
     height: 300px;
-    border: 5px solid black;
+    border: 1px solid #d73437;
     background-color: black;
 }
 
-/* element.style{
-    height: 400px;
-    width: 400px;
-} */
+
 
 /* text input area and submit button */
 input{
@@ -38,6 +59,33 @@ body{
 .jumbotron {
     background-image: url(../images/wp2757874.gif);
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: aliceblue;
-    height: 200px;
+    /* color: aliceblue; */
+    color: #d73437;
+    /* height: 200px; */
+}
+
+/* popmessage- "button added successfully" */
+.display-4{
+    margin-bottom: 50px;
+}
+
+/* popUp message "Button Added Successfully" */
+.popmessage{
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(18, 250, 18);
+   
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background-image: url(../images/swri.gif); */
+    background-image: url(../images/star.gif);
+}
+
+/* "Rating:" text*/
+p{
+    /* color: rgb(218, 136, 107); */
+    color: gainsboro;
+    /* color: whitesmoke; */
+    background-color: #101116a1;
+    text-align: center;
 }

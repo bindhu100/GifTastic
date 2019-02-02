@@ -16,41 +16,43 @@
         <link rel="icon" href="./assets/images/favicon (20).ico">
     </head>
     <body>
-            <div class="jumbotron jumbotron-fluid text-center">
-                <div class="container">
-                    <h1 class="display-4">Welcome to the GIPHY API</h1>
-                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                </div>
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h1 class="display-4">Welcome To Giphy Wonder World</h1>
+                <h2><span class="popmessage"></span></h2>
+                    <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- to display button -->
+            <div class="row">
+                <div class="col-md-12" id="button-Display"></div>
             </div>
 
-            <div class="container">
-                <!-- to display button -->
-                <div class="row">
-                    <div class="col-md-12" id="button-Display"></div>
+            <!-- to display form -->
+            <div class="row">
+                <div class="col-md-12">
+                    <form autocomplete="off"> <!-- autocomplete="off" - To remove previously entered values from the text box-->
+                        <!-- <input id="user-Input" type="text"> -->
+                        <!-- <input id="submitButton" type="submit" value="Submit" class="btn btn-secondary"> -->
+                        <input id="submitButton" type="submit" value="Submit" class="btn btn-secondary">
+                        <input id="user-Input" type="text">
+                        <!-- <button type="button" class="btn btn-secondary">Secondary</button> -->
+                        <!-- <input id="submitButton" type="submit" value="Submit" class="btn btn-default"> -->
+                    </form>
                 </div>
-
-                <!-- to display form -->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <form autocomplete="off"> <!-- autocomplete="off" - To remove previously entered values from the text box-->>
-                                <!-- <input id="user-Input" type="text"> -->
-                                <!-- <input id="submitButton" type="submit" value="Submit" class="btn btn-secondary"> -->
-                                <input id="submitButton" type="submit" value="Submit" class="btn btn-secondary">
-                                <input id="user-Input" type="text">
-                                <!-- <button type="button" class="btn btn-secondary">Secondary</button> -->
-                                <!-- <input id="submitButton" type="submit" value="Submit" class="btn btn-default"> -->
-                            </form>
-                        </div>
-                        <h2> <span class="popmessage"></span>
-                    </div>
+                <!-- <div>
+                <h2> <span class="popmessage"></span>
+                </div> -->
+            </div>
 
                     <!-- to display images-->
-                    <div class="row">
-                        <div id="display-Image" class="col-md-12">
-                        </div>
-                    </div>
+            <div class="row">
+                <div id="display-Image" class="col-md-12"></div>  
+            </div>
 
-            </div> <!-- .container-->
+        </div> <!-- .container-->
 
         <!-- link java script -->
         <script type="text/javascript "src="./assets/javascript/app.js">

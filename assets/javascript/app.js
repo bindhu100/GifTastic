@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     // display button
-    var displayButton =["Cat","Dog","Fish","Sky","Flower","Rain","Sunset","Sunrise","Ocean","Forest","Waterfall","Snow","Stars"];
+    var displayButton =["Earth","Moon","Galaxy","Sun","Sunset","Sunrise","Forest","Waterfall","Snow","Rain","Ocean","Stars","Sky","Space","Spring","Fall Season",];
 
     // display image
     function dispalyimage (){
@@ -103,26 +103,67 @@ $(document).ready(function(){
 
      $("#submitButton").on("click", function(){
          var input =$("#user-Input").val().trim();
-
+ 
         
         
          displayButton.push(input);
+// 99999999999999999999999999999999999999999999999999999999999
+         $(".popmessage").text("Button Added Successfully!!!")
+         var fade_out = function() {
+            $(".popmessage").empty();
+            }
+          
+            setTimeout(fade_out, 3000);
+        //  9999999999999999999999999999999999999999999999999999999999999999
+
          renderButtons();
 
-        // 88888888888888888888888888888888888888888888888888888
 
+        // 88888888888888888888888888888888888888888888888888888
+        //  
         ClearFields();
         
-        //88888888888888888888888888888888888888888888888888888 
-         return false;
 
+
+
+
+      
+      
+
+//    88888888888888888888888888888888888888888
+
+         
+         //  88888888888888888888888888888888888888
+         
+       
+         return false;
+        
+          //  // set time out for "You Won!!!" message
+         
+           
+             // 999999999999999999
+
+       
+         
+       
+       //88888888888888888888888888888888888888888888888888888 
 
 
 
      })
+
+
+      
+
      // Calling the renderButtons function at least once to display the initial list of movies
      renderButtons();
     //  movie name button it will display 
+    
      $(document).on("click","#input", dispalyimage);
      $(document).on("click", ".gif", imageChange);
+    //  999999999999999999999999
+    
+    
+    //       
+  
 });
