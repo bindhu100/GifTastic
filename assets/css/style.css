@@ -25,7 +25,8 @@ button, input, optgroup, select, textarea {
     .btn-secondary{
         /* background-image: url(../images/orenge.jpg); */
         /* background-color: #202333; */
-        background-color: #202333b9
+        /* background-color: #202333b9 */
+        background-color: #222334;
     }
 
 /* text area */
