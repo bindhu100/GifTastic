@@ -1,92 +1,97 @@
 
 /* image holder div */
 .holder{
-   float: left;
-    margin: 15px;
-}
-
-/* buttons and input area */
-button, input, optgroup, select, textarea {
-    margin: 5px;
-
-}
-
-    /* btton background $ add button background */
-    button {
-    /* margin: 5px; */
-    /* background-image: url(../images/orenge.jpg); */
-    background-color: orangered;
-
-    }
-
+    float: left;
+     margin: 15px;
+ }
+ 
+ /* buttons and input area */
+ button, input, optgroup, select, textarea {
+     margin: 5px;
+ 
+ }
+ 
+     /* btton background $ add button background */
+     button {
+     /* margin: 5px; */
+     /* background-image: url(../images/orenge.jpg); */
+     background-color: orangered;
+ 
+     }
+ 
+     
+     
+ /* submit button */
+     .btn-secondary{
+         /* background-image: url(../images/orenge.jpg); */
+         /* background-color: #202333; */
+         /* background-color: #202333b9 */
+         background-color: #222334;
+     }
+ 
+ /* text area */
+ #user-Input{
+     background-color: whitesmoke;
+     color: black;
+     border: 3px solid #202333;
+ }
+ 
+ /* display image */
+ img{
+     width: 300px;
+     height: 300px;
+     border: 1px solid #d73437;
+     background-color: black;
+ }
+ 
+ 
+ 
+ /* text input area and submit button */
+ input{
+ float: right;
+ }
+ 
+ body{
+     background-image: url(../images/wp2757874.gif);
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color: aliceblue;
+ }
+ 
+ .jumbotron {
+     background-image: url(../images/wp2757874.gif);
+     font-family: 'Georgia', Times, 'Times New Roman', serif;
+     /* color: aliceblue; */
+     color: #d73437;
+     /* height: 200px; */
+ }
+ 
+ /* popmessage- "button added successfully" */
+ .display-4{
+     margin-bottom: 50px;
+       
+     
+ }
+ 
+ /* popUp message "Button Added Successfully" */
+ .popmessage{
+     margin-top: 15px;
+     text-align: center;
+     color: rgb(18, 250, 18);
     
-    
-/* submit button */
-    .btn-secondary{
-        /* background-image: url(../images/orenge.jpg); */
-        /* background-color: #202333; */
-        /* background-color: #202333b9 */
-        background-color: #222334;
-    }
-
-/* text area */
-#user-Input{
-    background-color: whitesmoke;
-    color: black;
-    border: 3px solid #202333;
-}
-
-/* display image */
-img{
-    width: 300px;
-    height: 300px;
-    border: 1px solid #d73437;
-    background-color: black;
-}
-
-
-
-/* text input area and submit button */
-input{
-float: right;
-}
-
-body{
-    background-image: url(../images/wp2757874.gif);
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: aliceblue;
-}
-
-.jumbotron {
-    background-image: url(../images/wp2757874.gif);
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    /* color: aliceblue; */
-    color: #d73437;
-    /* height: 200px; */
-}
-
-/* popmessage- "button added successfully" */
-.display-4{
-    margin-bottom: 50px;
-}
-
-/* popUp message "Button Added Successfully" */
-.popmessage{
-    margin-top: 15px;
-    text-align: center;
-    color: rgb(18, 250, 18);
-   
-    padding-top: 15px;
-    padding-bottom: 15px;
-    /* background-image: url(../images/swri.gif); */
-    background-image: url(../images/star.gif);
-}
-
-/* "Rating:" text*/
-p{
-    /* color: rgb(218, 136, 107); */
-    color: gainsboro;
-    /* color: whitesmoke; */
-    background-color: #101116a1;
-    text-align: center;
-}
+     padding-top: 15px;
+     padding-bottom: 15px;
+     /* background-image: url(../images/swri.gif); */
+     background-image: url(../images/star.gif);
+ }
+ 
+ /* "Rating:" text*/
+ p{
+     /* color: rgb(218, 136, 107); */
+     color: gainsboro;
+     /* color: whitesmoke; */
+     background-color: #101116a1;
+     text-align: center;
+ }
+ Add Button{
+color: #d73437;
+ }
