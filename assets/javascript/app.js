@@ -7,12 +7,8 @@ $(document).ready(function(){
     function dispalyimage (){
         $("#display-Image").empty();
         var input =$(this).attr("data-name");
-        var limit =10;
-        // var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-        // input + "&limit=" + limit+"&api_key=dc6zaTOxFJmzC";
-        // var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input  + limit + "&api_key=dc6zaTOxFJmzC";   
+        var limit =10;  
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + input + "&limit=" + limit + "&api_key=dc6zaTOxFJmzC";   
-        // var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cats";
 
         $.ajax({
             url:queryURL,
@@ -23,21 +19,12 @@ $(document).ready(function(){
 
             var displayDiv = $("<div>");
             displayDiv.addClass("holder");
-            // 88888888888888888888888888888888888888888
+            // rating
                  var rating = response.data[i].rating;
             console.log(response);
             var pRating = $("<p>").text("Rating: "+ rating);
-            displayDiv.append(pRating);
-            //888888888888888888888888888888888888      
-            // var image = $("<img>");
-            // image.attr("src", response.data[i].images.original_still.url);
-            // image.attr("image-still",response.data[i].images.original_still.url);
-            // image.attr("image-animated",response.data[i].images.original.url);
-            // image.attr("data-state", "still");
-            // image.attr("class", "gif");
-            // displayDiv.append(image);
-
-            // 888888888888888888888888888888888888888888
+            displayDiv.append(pRating);    
+        
             var image = $("<img>");
             image.attr("src", response.data[i].images.fixed_height_still.url);
             image.attr("image-still",response.data[i].images.fixed_height_still.url);
@@ -45,13 +32,7 @@ $(document).ready(function(){
             image.attr("data-state", "still");
             image.attr("class", "gif");
             displayDiv.append(image);
-            // 88888888888888888888888888888888888888888888888
-            
-            // var rating = response.data[i].rating;
-            // console.log(response);
-            // var pRating = $("<p>").text("Rating: "+ rating);
-            // displayDiv.append(pRating);
-
+        
             $("#display-Image").append(displayDiv);
 
 
@@ -76,14 +57,14 @@ $(document).ready(function(){
      }
 
 
-    //  8888888888888888888888888888888888888888888888
+   
     // to clear the user input text box
             function ClearFields() {
 
                 document.getElementById("user-Input").value = "";
                 
             }
-        // 88888888888888888888888888888888888888888888888888
+   
         //  image change
      function imageChange(){
          var state =$(this).attr("data-state");
@@ -107,20 +88,16 @@ $(document).ready(function(){
         
         
          displayButton.push(input);
-// 99999999999999999999999999999999999999999999999999999999999
+    //popup message
          $(".popmessage").text("Button Added Successfully!!!")
          var fade_out = function() {
             $(".popmessage").empty();
             }
           
             setTimeout(fade_out, 3000);
-        //  9999999999999999999999999999999999999999999999999999999999999999
 
          renderButtons();
-
-
-        // 88888888888888888888888888888888888888888888888888888
-        //  
+ 
         ClearFields();
         
 

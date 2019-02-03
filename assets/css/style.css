@@ -13,8 +13,6 @@
  
      /* btton background $ add button background */
      button {
-     /* margin: 5px; */
-     /* background-image: url(../images/orenge.jpg); */
      background-color: orangered;
  
      }
@@ -23,9 +21,7 @@
      
  /* submit button */
      .btn-secondary{
-         /* background-image: url(../images/orenge.jpg); */
-         /* background-color: #202333; */
-         /* background-color: #202333b9 */
+
          background-color: #222334;
      }
  
@@ -60,9 +56,7 @@
  .jumbotron {
      background-image: url(../images/wp2757874.gif);
      font-family: 'Georgia', Times, 'Times New Roman', serif;
-     /* color: aliceblue; */
      color: #d73437;
-     /* height: 200px; */
  }
  
  /* popmessage- "button added successfully" */
@@ -77,21 +71,13 @@
      margin-top: 15px;
      text-align: center;
      color: rgb(18, 250, 18);
-    
-     /* padding-top: 15px;
-     padding-bottom: 15px; */
-     /* background-image: url(../images/swri.gif); */
      background-image: url(../images/star.gif);
  }
  
  /* "Rating:" text*/
  p{
-     /* color: rgb(218, 136, 107); */
      color: gainsboro;
-     /* color: whitesmoke; */
      background-color: #101116a1;
      text-align: center;
  }
- Add Button{
-color: #d73437;
- }
+
