@@ -68,10 +68,11 @@
  
  /* popUp message "Button Added Successfully" */
  .popmessage{
-     margin-top: 15px;
+     /* margin-top: 15px; */
      text-align: center;
      color: rgb(18, 250, 18);
      background-image: url(../images/star.gif);
+     margin-top: 30px;
  }
  
  /* "Rating:" text*/
@@ -80,4 +81,52 @@
      background-color: #101116a1;
      text-align: center;
  }
+/* model */
+ #model{
+     margin-bottom: 20px;
+     background-color: #222334;
+     /* border:white; */
+ }
+ /* model close button */
+ #close{
+    background-color: #222334;
+ }
 
+ .modal-body {
+     background-image: url(../images/Kq5HiEY.gif);
+ }
+
+
+/* model header */
+ .modal-header{
+     background-color: black;
+    
+ }
+/* model footer */
+ .modal-footer{
+     background-color: black;
+ }
+/* model main content */
+ .p1{
+     color: white;
+     background-color: black;
+     text-align: left;
+     
+ }
+/* model "X" button */
+ .close{
+     color: aliceblue;
+ }
+ /* model- right side white color change to black   */
+ .modal-content {
+    background-color: black;
+}
+
+
+/* Model- Add Button text */
+.p2{
+    text-align: left;
+ }
+
+
+ 

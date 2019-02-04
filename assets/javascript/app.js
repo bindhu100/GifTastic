@@ -94,36 +94,18 @@ $(document).ready(function(){
             $(".popmessage").empty();
             }
           
-            setTimeout(fade_out, 3000);
+            setTimeout(fade_out, 4000);
 
          renderButtons();
  
         ClearFields();
         
 
-
-
-
-      
-      
-
-//    88888888888888888888888888888888888888888
-
-         
-         //  88888888888888888888888888888888888888
          
        
          return false;
         
-          //  // set time out for "You Won!!!" message
-         
-           
-             // 999999999999999999
-
        
-         
-       
-       //88888888888888888888888888888888888888888888888888888 
 
 
 
@@ -138,9 +120,6 @@ $(document).ready(function(){
     
      $(document).on("click","#input", dispalyimage);
      $(document).on("click", ".gif", imageChange);
-    //  999999999999999999999999
-    
-    
-    //       
+      
   
 });
