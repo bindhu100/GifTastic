@@ -68,7 +68,7 @@
  
  /* popUp message "Button Added Successfully" */
  .popmessage{
-     /* margin-top: 15px; */
+    
      text-align: center;
      color: rgb(18, 250, 18);
      background-image: url(../images/star.gif);
@@ -84,8 +84,8 @@
 /* model */
  #model{
      margin-bottom: 20px;
-     background-color: #222334;
-     /* border:white; */
+
+     background-color: #d73437;
  }
  /* model close button */
  #close{
@@ -100,11 +100,13 @@
 /* model header */
  .modal-header{
      background-color: black;
+  
     
  }
 /* model footer */
  .modal-footer{
      background-color: black;
+    
  }
 /* model main content */
  .p1{
