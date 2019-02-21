@@ -1,5 +1,4 @@
-# GifTastic
-GIPHY API 
+# GifTastic -GIPHY API 
 
 HTML, CSS, Bootstrap, JavaScript, Jquery, API and Ajax
 
