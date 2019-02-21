@@ -1,4 +1,8 @@
 # GifTastic
-GIPHY API Homework Unit 6 <br>
+GIPHY API 
+
+HTML, CSS, Bootstrap, JavaScript, Jquery, API and Ajax
+
+10 gifs
 
 https://bindhu100.github.io/GifTastic/
